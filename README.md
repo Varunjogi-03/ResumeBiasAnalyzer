@@ -9,9 +9,7 @@
 ### Setup
 
 1. **Navigate to the project directory:**
-   ```bash
-   cd IAPC
-   ```
+  
 
 2. **Create a virtual environment (recommended):**
    ```bash
