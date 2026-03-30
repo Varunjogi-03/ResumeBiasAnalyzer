@@ -146,3 +146,8 @@ data/processed/
 *.joblib
 *.h5
 *.pt
+
+# Project specific
+plots/
+pipeline.log
+*.log

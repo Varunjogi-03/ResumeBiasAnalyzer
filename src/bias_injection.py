@@ -73,7 +73,7 @@ def create_counterfactuals(df):
         new_row["gap_year"] = "no" if row["gap_year"] == "yes" else "yes"
         counterfactual_data.append(new_row)
 
-    df_new = pd.DataFrame(counterfactual_data)
+    df_new = pd.DataFrame(counterfactual_data).reset_index(drop=True)
 
     print("After counterfactual expansion:", df_new.shape)
 
